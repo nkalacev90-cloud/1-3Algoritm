@@ -37,7 +37,7 @@ public class BalancedBSTBuilder {
     }
 
     public static void main(String[] args) {
-        int[] arr = {7, 2, 9, 1, 5, 3, 8};
+        int[] arr = {17, 6, 5, 20, 19, 18, 11, 14, 12, 13, 2, 4, 10};
         TreeNode root = buildBalancedBST(arr);
 
         System.out.println("Родитель с дочерними:");
